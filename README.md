@@ -1,6 +1,6 @@
-# 🏠 ALX Listing App
+# ALX Listing App
 
-## 📖 Project Overview
+##  Project Overview
 The **ALX Listing App** is a web application designed to replicate the core functionality of an Airbnb-style property listing platform.  
 It allows users to view property listings through a clean, responsive interface built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
@@ -10,7 +10,7 @@ The main goal of this project is to:
 - Apply **Tailwind CSS** for styling and responsiveness
 - Build reusable and modular components
 
-## 📁 Project Structure
+##  Project Structure
 
 alx-listing-app/
 │
@@ -41,11 +41,11 @@ alx-listing-app/
 
 
 
-## ⚙️ How to Run the Project Locally
+## How to Run the Project Locally
 
 Follow the steps below to set up and run the **ALX Listing App** on your local machine.
 
-### 1️⃣ Prerequisites
+### Prerequisites
 Before you start, ensure the following are installed:
 - **Node.js** (v18 or later)
 - **npm** (bundled with Node.js)
