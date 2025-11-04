@@ -13,31 +13,24 @@ The main goal of this project is to:
 ##  Project Structure
 
 alx-listing-app/
-│
 ├── components/
-│ └── common/
-│ ├── Button.tsx # Reusable button component for actions like “Book Now”, “Details”, etc.
-│ └── Card.tsx # Reusable card component for displaying property details (title, image, price, etc.)
-│
-├── interfaces/
-│ └── index.ts # TypeScript interfaces for components (e.g., CardProps, ButtonProps)
-│
+│   ├── common/
+│   │   ├── Button.tsx # Reusable button component (e.g., "Book Now", "Details")
+│   │   └── Card.tsx   # Reusable card component for property details (title, image, price)
 ├── constants/
-│ └── index.ts # Contains constants and configuration data (e.g., API URLs, placeholder data)
-│
-├── public/
-│ └── assets/ # Contains images, icons, and other static assets used throughout the app
-│
+│   └── index.ts       # API URLs, configuration, and placeholder data
+├── interfaces/
+│   └── index.ts       # TypeScript interfaces (e.g., CardProps, ButtonProps)
 ├── pages/
-│ └── index.tsx # The main landing page displaying property listings
-│
+│   └── index.tsx      # The main landing page displaying property listings
+├── public/
+│   └── assets/        # Images, icons, and other static assets
 ├── styles/
-│ └── globals.css # Global Tailwind CSS imports and base styles
-│
-├── tailwind.config.js # Tailwind configuration
-├── tsconfig.json # TypeScript configuration
-├── package.json # Project dependencies and scripts
-└── README.md # Project documentation
+│   └── globals.css    # Global Tailwind CSS imports and base styles
+├── tailwind.config.js # Tailwind CSS configuration
+├── tsconfig.json      # TypeScript configuration
+├── package.json       # Project dependencies and scripts
+└── README.md          # Project documentation
 
 
 
